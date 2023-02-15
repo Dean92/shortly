@@ -2,6 +2,10 @@ module.exports = {
   content: ['./*.html', './js/*.js'],
   theme: {
     extend: {
+      backgroundImage: {
+        'boost-desktop': "url('../images/bg-boost-desktop.svg')",
+        'boost-mobile': "url('../images/bg-boost-mobile.svg')",
+      },
       colors: {
         cyan: 'hsl(180, 66%, 49%)',
         cyanLight: 'hsl(180, 66%, 69%)',
